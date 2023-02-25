@@ -1,0 +1,191 @@
+/* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+/************** ROOT STYLES START **************/
+:root{
+    --site-bg-color: #4d515d;
+    --second-text-color: #979895;
+}
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 600;
+    background-color: var(--site-bg-color);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    max-width: 1150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+ol,
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/************** /ROOT STYLES END **************/
+/* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+/************** MAIN STYLES START **************/
+/* .site-main {
+    
+}
+
+.member {
+    
+}
+
+.container {
+    
+} */
+
+.member__wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    width: 1100px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.member__text {
+    width: 60%;
+}
+.member__start {
+    padding: 50px 15px;
+    border: 0;
+    border-bottom: 1px solid #eef0f3;
+}
+.member__head {
+    margin-bottom: 50px;    
+}
+
+.member__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.member__desc {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--second-text-color);
+}
+
+/* .social__list {
+
+} */
+
+.social__items {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: var(--second-text-color);
+    border: 1px solid #eef0f3;
+    border-radius: 5px;
+}
+
+.social__items:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.social__items:hover {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.social__img {
+    width: 40px;
+    height: 40px;
+    margin-right: 160px;
+}
+
+/* .socail__desc {
+
+} */
+
+/* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+.member__footer {
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer__start {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer__end {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--second-text-color);
+}
+
+.footer__end:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+
+/* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+/************** PHOTO STYLES START **************/
+.member__photo {
+    /* width: 40%; */
+    background-image: url("./img/side.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+/************** PHOTO STYLES END **************/
+
+/************** /MAIN STYLES END **************/
