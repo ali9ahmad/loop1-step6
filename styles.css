@@ -86,27 +86,27 @@ a{
 }
 
 .member__start {
-    padding: 50px 15px;
+    padding: 60px 55px;
     border: 0;
     border-bottom: 1px solid #eef0f3;
 }
 
 .member__head {
-    margin-bottom: 50px;    
+    margin-bottom: 60px;    
 }
 
 .member__title {
     margin-top: 0;
     margin-bottom: 10px;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .member__desc {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 13px;
     color: var(--second-text-color);
 }
 
@@ -130,9 +130,13 @@ a{
 }
 
 .social__img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-right: 160px;
+}
+
+.socail__desc {
+    font-size: 12px;
 }
 
 /* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
@@ -148,11 +152,13 @@ a{
 .footer__start {
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 12px;
 }
 
 .footer__end {
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 12px;
     color: var(--second-text-color);
 }
 
@@ -165,7 +171,7 @@ a{
 /************** PHOTO STYLES START **************/
 
 .member__photo {
-    width: 35%;
+    width: 40%;
     background-image: url("./img/side.jpg");
     background-size: cover;
     background-repeat: no-repeat;
